@@ -1056,7 +1056,7 @@ static int list_current_desktop (Display *disp) {/*{{{*/
             return EXIT_FAILURE;
         }
     }
-    printf("%-2d\n", *cur_desktop);
+    printf("%-2lu\n", *cur_desktop);
     return EXIT_SUCCESS;
 }
 
